@@ -17,3 +17,9 @@
 //saida de dados
 // = informar se o triangulo é equilátero, escaleno ou isócele
 // = motrar a saída do programa na console
+
+const medTriangle = (a, b, c) => {
+    if(a == b && b == c) {
+        console.log('Triangulo Equilatero');
+    }
+}

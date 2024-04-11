@@ -6,6 +6,8 @@
 
 
 
+
+
 //entrada de dados
 // = determinar se o cliente é 1- cliente, 2- funcionário e 3-vip
 // = informar o total da compra 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Lima">
+    <title>Tipo do triangulo</title>
+</head>
+<body>
+
+    <script>
+        
+        
+        let medTriangle1 = parseInt(prompt(`informe a primeira medida: `));
+        let medTriangle2 = parseInt(prompt(`informe a segunda medida: `));
+        let medTriangle3 = parseInt(prompt(`informe a terceira medida: `));
+        
+        
+    if (medTriangle1 == medTriangle2 && medTriangle2 == medTriangle3) {
+        alert('Triangulo Equilátero.');
+    
+    }
+      else if(medTriangle1 != medTriangle2 && medTriangle2 != medTriangle3 && medTriangle1 != medTriangle3 ) {
+        alert('Triangulo Escaleno.');
+
+    }else{
+        alert('Triangulo Isóscele.')
+    }
+
+
+    </script>
+    
+</body>
+</html>
